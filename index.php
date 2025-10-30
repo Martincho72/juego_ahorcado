@@ -84,6 +84,46 @@ if ($_SESSION['letras_acertadas'] == $_SESSION['palabra']) {
             font-size: 1.1em;
             color: #555;
         }
+
+        input[type="text"] {
+            padding: 8px;
+            width: 50px;
+            text-align: center;
+            font-size: 1.2em;
+            border: 2px solid #74ebd5;
+            border-radius: 5px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus {
+            border-color: #ACB6E5;
+        }
+
+        button {
+            background-color: #74ebd5;
+            color: #333;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #ACB6E5;
+        }
+
+        p strong {
+            font-weight: bold;
+            color: #333;
+        }
+
+        p:nth-of-type(1) {
+            font-size: 1.3em;
+            letter-spacing: 3px;
+        }
     </style>
 </head>
 <body>
